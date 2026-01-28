@@ -1,0 +1,14 @@
+# Mobil Uygulama Bağımlılıkları
+# =============================
+
+# Kivy - Çapraz platform mobil uygulama framework'ü
+kivy>=2.2.0
+
+# Kivy bağımlılıkları
+kivy-deps.angle>=0.3.3; sys_platform == 'win32'
+kivy-deps.sdl2>=0.5.1; sys_platform == 'win32'
+kivy-deps.glew>=0.3.1; sys_platform == 'win32'
+
+# Android/iOS derleme için (opsiyonel)
+# buildozer - Android APK oluşturmak için
+# p4a - Python for Android
